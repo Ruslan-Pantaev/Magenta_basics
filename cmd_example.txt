@@ -1,12 +1,18 @@
 #-------------------------------------
 
 arpiseaQ [9:53 PM] 
-I've learned so far that on macbook pro retina, image stylizations only work with tensorflow 1.0.1. However, generating melodies requires 1.4.1. To train magenta with custom midi data, first we need to convert midi files to notesequences, then build train and eval datasets. Only then can we actually train using our new custom midi notesequences. Lastly we can generate melodies. Note that a midi "primer" melody must be included when generating new mid files. This can be a simple note or a melody stored in a .mid file.
+I've learned so far that on macbook pro retina, image stylizations only work with tensorflow 1.0.1.
+However, generating melodies requires 1.4.1. To train magenta with custom midi data, first we need
+to convert midi files to notesequences, then build train and eval datasets. Only then can we actually
+train using our new custom midi notesequences. Lastly we can generate melodies. Note that a midi 
+"primer" melody must be included when generating new mid files. This can be a simple note or a 
+melody stored in a .mid file.
 
 TODO what are .mag bundle files for?
 Creating a Bundle File
 
-The bundle format is a convenient way of combining the model checkpoint, metagraph, and some metadata about the model into a single file.
+The bundle format is a convenient way of combining the model checkpoint, metagraph,
+and some metadata about the model into a single file.
 "This is related to Deep Learning and Jupyter Notebooks."-init27
 
 #-------------------------------------
